@@ -1,0 +1,99 @@
+/* ベーススタイル */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* ヘッダー */
+header {
+    background: #058f8f;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* メインコンテンツ */
+main {
+    padding: 20px;
+}
+
+/* プロジェクトカード */
+.project, .github {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* 各プロジェクトタイトル */
+.project h2 {
+    margin-top: 0;
+    color: #4CAF50;
+}
+
+.github h2 {
+    margin-top: 0;
+    color: #251849;
+}
+
+
+/* プロジェクト説明 */
+.project p, .github p {
+    margin: 10px 0;
+}
+
+/* ボタンリンク */
+button, a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+/* ボタンリンクGitHub用 */
+.github a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+    background: #251849;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover, .github a:hover {
+    background: #45A049;
+}
+
+/* フッター */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+footer h3 {
+    margin: 5px 0;
+    font-size: 1.2rem;
+}
